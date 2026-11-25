@@ -6,12 +6,17 @@ export const profile = {
   shortName: 'Eniya K',
   title: 'Aspiring Software Engineer',
   roles: 'Python Developer | Backend Developer | AI/ML Enthusiast',
+
   intro:
     "I'm a Computer Science and Engineering student passionate about building intelligent applications, scalable backend systems, and modern software solutions. I enjoy solving challenging problems and transforming ideas into practical applications.",
+
   tagline: 'Building intelligent solutions through code.',
-  photo: '/images/profile.jpg',
-  photoWebp: '/images/profile.webp',
-  resume: '/resume.pdf',
+
+  // Fixed asset paths for GitHub Pages deployment
+  photo: `${import.meta.env.BASE_URL}images/profile.jpg`,
+  photoWebp: `${import.meta.env.BASE_URL}images/profile.webp`,
+  resume: `${import.meta.env.BASE_URL}resume.pdf`,
+
   email: 'eniyakasilingam1@gmail.com',
   github: 'https://github.com/eniya81',
   linkedin: 'https://linkedin.com/in/eniya-kasilingam-795b77327',
